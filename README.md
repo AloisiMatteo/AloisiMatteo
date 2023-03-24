@@ -1,4 +1,4 @@
-## Ciao! Piacere di conoscerti.
+<img alt="name-logo" src="./my-name.png" style="width:200px">
 
 Sono Aloisi Matteo, Font End Developer e sono di Roma.
 
