@@ -12,7 +12,7 @@ Ho utilizzato vari linguaggi tra cui i principali sono
   <img alt="css" src="https://img.shields.io/badge/-CSS-blue?style=flat-square&logo=css&logoColor=blue" </>
 </div> <br>
 
-### Contattami
+## Contattami
 
 <p>
   <a href="https://github.com/AloisiMatteo" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
