@@ -6,13 +6,14 @@ Ho utilizzato vari linguaggi tra cui i principali sono
 
 <div>
   <img alt="angular" src="https://img.shields.io/badge/-Angular-%23ED1C24" />
+  <img alt="css" src="https://img.shields.io/badge/-RxJS-%23ED138F" </>
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-blue" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-JavaScript-%23FFF200" />
   <img alt="git" src="https://img.shields.io/badge/-Git-white" />
   <img alt="git" src="https://img.shields.io/badge/-GitHub-white" />
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-%23F16529" />
   <img alt="css" src="https://img.shields.io/badge/-CSS-blue" </>
-  <img alt="css" src="https://img.shields.io/badge/-RxJS-%23ED138F" </>
+
   
 </div> <br>
 
