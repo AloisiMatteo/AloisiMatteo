@@ -13,6 +13,8 @@ Ho utilizzato varie tecnologie e linguaggi tra cui
   <img alt="git" src="https://img.shields.io/badge/-GitHub-white" />
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-%23F16529" />
   <img alt="css" src="https://img.shields.io/badge/-CSS-blue" </>
+  <img alt="css" src="https://img.shields.io/badge/-SASS-%23CC6699" </>
+ 
 
   
 </div> <br>
