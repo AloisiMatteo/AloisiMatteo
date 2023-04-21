@@ -2,7 +2,7 @@
 
 Sono Aloisi Matteo, Font End Developer e sono di Roma.
 
-Ho utilizzato vari linguaggi tra cui i principali sono
+Ho utilizzato varie tecnologie e linguaggi tra cui
 
 <div>
   <img alt="angular" src="https://img.shields.io/badge/-Angular-%23ED1C24" />
