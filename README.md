@@ -5,7 +5,7 @@
   <summary>Github Stats ⚡</summary> <br>
   
   <a href="#">![Github stats](https://github-readme-stats.vercel.app/api?username=AloisiMatteo&theme=blueberry&count_private=true&hide_border=true&line_height=20)</a>
-  <a href="#">![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AloisiMatteo&layout=compact&theme=blueberry&count_private=true&hide_border=true)</a>
+  <img style="height: 165px;" alt="LinkedIn" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AloisiMatteo&layout=compact&theme=blueberry&count_private=true&hide_border=true" />
 </details>
 
 ## Le mie competenze
