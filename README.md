@@ -9,7 +9,7 @@
 </details>
 
 ## Le mie competenze
-  [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,github,git,typescript,javascript,html,css,sass)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,github,git,bootstrap,typescript,javascript,html,css,sass)](https://skillicons.dev)
 
 ## Contattami
 
