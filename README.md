@@ -1,6 +1,13 @@
 ## Benvenuto nel mio profilo GitHub!
   Sono Aloisi Matteo e sono un FrontEnd Developer. ✨
 
+<details>
+  <summary>Github Stats ⚡</summary> <br>
+  
+  <a href="#">![Github stats](https://github-readme-stats.vercel.app/api?username=AloisiMatteo&theme=blueberry&count_private=true&hide_border=true&line_height=20)</a>
+  <a href="#">![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AloisiMatteo&layout=compact&theme=blueberry&count_private=true&hide_border=true)</a>
+</details>
+
 ## Le mie competenze
   [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,github,git,typescript,javascript,html,css,sass)](https://skillicons.dev)
 
