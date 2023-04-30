@@ -1,23 +1,8 @@
-<img alt="name-logo" src="./my-name.png" style="width:200px">
+## Benvenuto nel mio profilo GitHub!
+  Sono Aloisi Matteo e sono un FrontEnd Developer. ✨
 
-Sono Aloisi Matteo, Font End Developer e sono di Roma.
-
-Ho utilizzato varie tecnologie e linguaggi tra cui
-
-<div>
-  <img alt="angular" src="https://img.shields.io/badge/-Angular-%23ED1C24" />
-  <img alt="css" src="https://img.shields.io/badge/-RxJS-%23ED138F" </>
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-blue" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-JavaScript-%23FFF200" />
-  <img alt="git" src="https://img.shields.io/badge/-Git-white" />
-  <img alt="git" src="https://img.shields.io/badge/-GitHub-white" />
-  <img alt="html5" src="https://img.shields.io/badge/-HTML5-%23F16529" />
-  <img alt="css" src="https://img.shields.io/badge/-CSS-blue" </>
-  <img alt="css" src="https://img.shields.io/badge/-SASS-%23CC6699" </>
- 
-
-  
-</div> <br>
+## Le mie competenze
+  [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,github,git,typescript,javascript,html,css,sass)](https://skillicons.dev)
 
 ## Contattami
 
