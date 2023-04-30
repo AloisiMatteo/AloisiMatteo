@@ -16,7 +16,7 @@
 <p>
   <a href="https://github.com/AloisiMatteo" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
   <a href="https://www.linkedin.com/in/matteo-aloisi-64395b258/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-  <a href="mailto:99matteoaloisi@gmail.com" target="_blank"><img style="height:28px;" alt="Gmail" src="https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white" />
+  <a href="mailto:99matteoaloisi@gmail.com" target="_blank"><img style="height:28px;" alt="Gmail" src="https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white" />
 </p>
   
 
