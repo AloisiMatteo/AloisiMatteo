@@ -39,12 +39,14 @@ export class ContactHeaderComponent implements OnInit {
 
     if (value.company.length == 0) { this.companyTextError = 'You must enter your name.' }
     else if (value.company.length < 2) { this.companyTextError = 'Your name must be at least 2 characters.' }
+    else if (value.company.length > 50) { this.companyTextError = 'Your name must be at most 50 characters.' }
     else this.companyTextError = null;
   }
   subjectCheck(value : any) {
 
     if (value.subject.length == 0) { this.subjectTextError = 'You must enter your subject.' }
     else if (value.subject.length < 2) { this.subjectTextError = 'Your subject must be at least 2 characters.' }
+    else if (value.subject.length > 50) { this.subjectTextError = 'Your subject must be at most 50 characters.' }
     else this.subjectTextError = null;
   }
   textAreaCheck(value : any) {
