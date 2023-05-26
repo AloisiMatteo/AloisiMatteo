@@ -1,0 +1,13 @@
+<div [ngClass]="checkLinked()" class="skill-header-container">
+  <div class="skill-header-container--title" data-aos="zoom-out">
+    <h1><span>My</span> Skill</h1>
+  </div>
+  <div class="skill-header-container--skills" data-aos="zoom-out">
+    <div *ngFor="let item of skillList" class="item" [routerLink]="URLPrefix +[item.id]">
+      <img [src]="item.immagine" alt="">
+      <h1 [style]="'color: ' + item.color + ';'">{{item.titolo}}</h1>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

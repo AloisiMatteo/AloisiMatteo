@@ -1,0 +1,39 @@
+<ng-container #adaptedNavBar>
+  <aside class="navbar-mobile" [ngClass]="hamburgerIsActive ? 'navbar-on' : 'navbar-off'">
+    <nav class="navbar-mobile__content">
+      <ul class="navbar-mobile__content--up">
+        <li class="item-up" *ngFor="let item of adaptNavItems">
+          <p class="item-up__link" *ngIf="item != 'Features'" [routerLink]="'/' + item.toLowerCase()"> {{item}} </p>
+        </li>
+      </ul>
+      <ul class="navbar-mobile__content--down" [ngClass]="hamburgerIsActive ? 'down-navbar-on' : ''">
+        <li class="item-down">
+          <button routerLink="sign-up">Resume</button>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+</ng-container>
+
+
+<div class="navbar-container">
+  <div class="navbar-container__left">
+    <div class="navbar-container__left--svg" *ngIf="!hamburgerIsActive">
+      <p routerLink=""><span>TL</span>oper</p>
+    </div>
+    <div class="navbar-container__left--item" *ngFor="let item of navBarItemsLeft; let i = index">
+      <p [routerLink]="item == 'Features' ? null : '/' + item.toLowerCase()">{{item}}</p>
+      <svg viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><path d="M4.178 6.322.82 2.962a.75.75 0 1 1 1.06-1.06L4.178 4.2l2.299-2.298a.75.75 0 0 1 1.06 1.06l-3.359 3.36Z" *ngIf="item == 'Features'"></path></svg>
+    </div>
+  </div>
+  <div class="navbar-container__right">
+    <div class="navbar-container__right--button">
+      <app-regular-button routerLink="/sign-up" [testoBottone]="'Resume'"></app-regular-button>
+    </div>
+    <div class="navbar-container__right--hamburger" (click)="toggleHamburgerStatus()">
+      <span [ngClass]="hamburgerIsActive ? 'first-hamb-active' : ''"></span>
+      <span [ngClass]="hamburgerIsActive ? 'second-hamb-active' : ''"></span>
+    </div>
+  </div>
+</div>
