@@ -1,0 +1,40 @@
+<div class="contact-header-container">
+  <div class="contact-header-container__wrapper">
+    <div class="contact-header-container__wrapper--up" data-aos="zoom-out">
+    <h2 class="title"><span>Send</span> me a message!</h2>
+    </div>
+    <div class="contact-header-container__wrapper--bottom" data-aos="zoom-out">
+    <form #contact="ngForm" class="contact-form" (ngSubmit)="onSubmit(contact.value)">
+      <div class="contact-form__company-input">
+        <input type="text" name="company" placeholder="Enter Name" ngModel required pattern="[a-zA-Z0-9]{2,50}" (keyup)="companyCheck(contact.value)">
+        <p class="company-input__error" *ngIf="companyTextError">{{companyTextError}}</p>
+      </div>
+      <div class="contact-form__email-input">
+        <input type="email" name="email" placeholder="Enter Email" ngModel required email (keyup)="emailCheck(contact.value)">
+        <p class="email-input__error" *ngIf="emailTextError">{{emailTextError}}</p>
+      </div>
+      <div class="contact-form__subject-input">
+        <input type="text" name="subject" placeholder="Enter Subject" ngModel required pattern="[a-zA-Z0-9]{2,50}" (keyup)="subjectCheck(contact.value)">
+        <p class="contact-form__subject-input--error" *ngIf="subjectTextError">{{subjectTextError}}</p>
+      </div>
+      <div class="contact-form__textarea-input">
+        <div class="contact-form__textarea-input--description">
+          <p>Enter Message</p>
+        </div>
+        <div class="contact-form__textarea-input--input">
+          <textarea name="detail" ngModel required id="" cols="30" rows="10" (keyup)="textAreaCheck(contact.value)"></textarea>
+          <p class="contact-form__textarea-input--input__error" *ngIf="textAreaError">{{textAreaError}}</p>
+        </div>
+      </div>
+      <div class="contact-form__form-button">
+        <button [disabled]="!contact.valid" type="submit" [ngClass]="contact.valid ? 'form-button-on' : 'form-button-off'">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="messageSended" class="message-sended">
+  <i class="bi bi-check-circle"></i>
+  <p>{{messageSended}}</p>
+</div>
