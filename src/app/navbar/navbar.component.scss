@@ -129,6 +129,30 @@
       height: 64px;
       display: flex;
       align-items: center;
+
+      button {
+        border: none;
+        background: var(--regular-button-color);
+        border-radius: 4rem;
+        font-size: 1rem;
+        letter-spacing: 0;
+        line-height: 2.5rem;
+        position: relative;
+        text-decoration: none;
+        transition: .25s cubic-bezier(.4,0,.2,1);
+        padding: 0px 17px;
+        cursor: pointer;
+
+        a {
+          color: var(--regular-button-text-color);
+          text-decoration: none;
+          font-weight: 500;
+          font-family: Grotesque-medium,Arial,Helvetica,sans-serif;
+        }
+    }
+    button:hover {
+        opacity: 0.8;
+    }
     }
     &--hamburger {
       position: absolute;
@@ -348,12 +372,17 @@ ul, li {
       button {
         background: var(--regular-button-color);
         border-radius: 4rem;
-        color: var(--regular-button-text-color);
         width: 100%;
         padding: 1rem 0;
-        font-family: Grotesque-bolder;
         font-size: 1.1rem;
         cursor: pointer;
+
+        a {
+          color: var(--regular-button-text-color);
+          text-decoration: none;
+          font-weight: 500;
+          font-family: Grotesque-medium,Arial,Helvetica,sans-serif;
+        }
       }
     }
     .item-down:hover {

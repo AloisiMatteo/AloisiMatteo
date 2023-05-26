@@ -8,7 +8,9 @@
       </ul>
       <ul class="navbar-mobile__content--down" [ngClass]="hamburgerIsActive ? 'down-navbar-on' : ''">
         <li class="item-down">
-          <button routerLink="sign-up">Resume</button>
+          <button>
+            <a href="../../assets/files/resume.pdf">Resume</a>
+          </button>
         </li>
       </ul>
     </nav>
@@ -29,7 +31,9 @@
   </div>
   <div class="navbar-container__right">
     <div class="navbar-container__right--button">
-      <app-regular-button routerLink="/sign-up" [testoBottone]="'Resume'"></app-regular-button>
+      <button>
+        <a href="../../assets/files/resume.pdf">Resume</a>
+      </button>
     </div>
     <div class="navbar-container__right--hamburger" (click)="toggleHamburgerStatus()">
       <span [ngClass]="hamburgerIsActive ? 'first-hamb-active' : ''"></span>
