@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as AOS from "aos"
 
 @Component({
@@ -8,7 +8,7 @@ import * as AOS from "aos"
 })
 export class AboutHeaderComponent implements OnInit {
 
-
+  @Input() buttonURL !: string
 
   ngOnInit(): void {
     AOS.init();
