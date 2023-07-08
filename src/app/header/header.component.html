@@ -1,0 +1,27 @@
+<div class="header-container" [style]="styleContainer">
+  <div class="header-container--sx" [style]="styleText">
+    <div class="header-container--sx__titolo">
+      <h1><span>Front</span>End Developer</h1>
+    </div>
+    <div class="header-container--sx__descrizione">
+      <p>I develop websites and web applications
+        for the purpose of making the requested product.</p>
+    </div>
+    <div class="header-container--sx__features">
+      <div class="item" *ngFor="let item of listaFeatures">
+        <i class="bi bi-check-circle"></i>
+        <p>{{item}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="header-container--dx" [style]="styleText">
+    <div class="header-container--dx__immagine">
+      <img src="../../assets/images/my-name.png" alt="">
+    </div>
+  </div>
+  <div class="header-container--scroll" [style]="styleText">
+    <i class="bi bi-mouse-fill"></i>
+    <p>Scroll down</p>
+  </div>
+</div>
+

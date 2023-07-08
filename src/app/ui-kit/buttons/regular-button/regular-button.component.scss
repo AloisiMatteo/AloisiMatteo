@@ -1,0 +1,36 @@
+.button-container {
+  margin: 0px;
+  height: 100%;
+
+  button {
+      border: none;
+      background: var(--regular-button-color);
+      border-radius: 4rem;
+      color: var(--regular-button-text-color);
+      font-family: Grotesque-medium,Arial,Helvetica,sans-serif;
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 2.5rem;
+      position: relative;
+      text-decoration: none;
+      transition: .25s cubic-bezier(.4,0,.2,1);
+      padding: 0px 17px;
+      cursor: pointer;
+  }
+  button:hover {
+      opacity: 0.8;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button-container {
+      button {
+        border-radius: 6rem;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+}

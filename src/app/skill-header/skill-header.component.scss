@@ -1,0 +1,137 @@
+@keyframes adapted-skill-animation {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-60%); }
+}
+
+.skill-header-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: Grotesque-regular;
+  background: var(--section-bg-dark);
+  background-color: #222;
+  color: white;
+
+  &--title {
+    padding-bottom: 6rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    h1 {
+      width: 100%;
+      animation: drop-shadow 2s ease 0s infinite alternate;
+      padding-bottom: 4px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    span {
+      color: #00ceff;
+    }
+  }
+
+  &--skills {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.7rem;
+      background-color: rgb(51 51 51 / 44%);
+      padding: 1rem;
+      border: 2px solid transparent;
+      border-radius: 5px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: transparent;
+        border: 2px solid #00ceff;
+      }
+
+      img {
+        width: 60px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .skill-header-container {
+    &--skills {
+      .item {
+        width: 28%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 940px) {
+  .skill-header-container {
+    &--title {
+      font-size: 1rem;
+    }
+    &--skills {
+      .item {
+        width: 38%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .skill-header-container {
+    &--title h1 {
+      width: max-content;
+    }
+
+    &--skills {
+      gap: 3rem;
+      .item {
+        width: 100%;
+        max-width: max-content;
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  .skill-header-container {
+    overflow: hidden;
+    padding-top: 6rem !important;
+
+    &--skills {
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      width: 1000px;
+      animation: adapted-skill-animation 5s linear 0s infinite;
+
+      .item {
+        width: 100%;
+        max-width: max-content;
+        h1 {
+          display: none;
+        }
+      }
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
+}
+
+
+.link-on {
+  padding: 8rem 6rem 15rem;
+}
+
+.link-off {
+  padding: 3rem 6rem 6rem;
+}
