@@ -1,27 +1,21 @@
-# ProjectPortfolio
+## Benvenuto nel mio profilo GitHub!
+  Sono Aloisi Matteo e sono un FrontEnd Developer. ✨
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+<details>
+  <summary>Github Stats ⚡</summary> <br>
+  
+  <a href="#">![Github stats](https://github-readme-stats.vercel.app/api?username=AloisiMatteo&theme=blueberry&count_private=true&hide_border=true&line_height=20)</a>
+  <img style="height: 165px;" alt="LinkedIn" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AloisiMatteo&layout=compact&theme=blueberry&count_private=true&hide_border=true" />
+</details>
 
-## Development server
+## Le mie competenze
+  [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,github,git,bootstrap,typescript,javascript,html,css,sass)](https://skillicons.dev)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Contattami
 
-## Code scaffolding
+<p>
+  <a href="https://www.linkedin.com/in/matteo-aloisi-64395b258/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+  <a href="mailto:99matteoaloisi@gmail.com" target="_blank"><img style="height:28px;" alt="Gmail" src="https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white" />
+</p>
+  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
