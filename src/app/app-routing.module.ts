@@ -11,7 +11,7 @@ const routes: Routes = [
 
   { path: 'about', component: AboutMeComponent },
 
-  { path: 'skills', component: MySkillComponent, children: [
+  { path: 'skill', component: MySkillComponent, children: [
     { path: ':id', component: SingleSkillComponent }
   ] },
 

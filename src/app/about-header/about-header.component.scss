@@ -151,6 +151,8 @@
 }
 @media screen and (max-width: 540px) {
   .about-header-container {
+    padding: 2rem 3rem 0;
+
     &--top {
       font-size: 1rem;
       justify-content: center;
@@ -167,9 +169,7 @@
           line-height: 1.5rem;
         }
         &--links {
-          font-size: 1.6rem;
-          margin-top: 1rem;
-          justify-content: center;
+          display: none;
         }
       }
     }

@@ -132,7 +132,7 @@
 }
 @media screen and (max-width: 780px) {
   .header-container {
-    gap: 7rem;
+    gap: 4rem;
 
     &--sx {
       align-items: start;
@@ -152,7 +152,12 @@
       }
     }
     &--scroll {
-      bottom: 13px;
+      bottom: 20px;
     }
+  }
+}
+@media screen and (max-width: 540px) {
+  .header-container {
+    padding: 8rem 3rem 5rem 3rem;
   }
 }
