@@ -16,7 +16,7 @@ export class SingleSkillComponent implements OnInit {
   constructor(private route: ActivatedRoute, private skillService: SkillServiceService, private router: Router) {}
 
   closeWindow() {
-    this.router.navigateByUrl('skills')
+    this.router.navigateByUrl('skill')
     .then(()=> {
       this.showContainer = false
     })
