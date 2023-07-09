@@ -8,7 +8,7 @@ import { IFooterItemsInterface } from '../interfaces/i-footer-items-interface';
 })
 export class FooterComponent {
   footerItems : IFooterItemsInterface[] = [
-    { title: 'Pages', subtitle: ['About', 'Skills', 'Contact'], scrollActive: false},
+    { title: 'Pages', subtitle: ['About', 'Skill', 'Contact'], scrollActive: false},
     { title: 'References', subtitle: ['Phone: +3488342350', 'Email: 99matteoaloisi@gmail.com'], scrollActive: false},
   ]
 
