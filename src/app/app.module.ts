@@ -17,6 +17,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ContactHeaderComponent } from './contact-header/contact-header.component';
 import { FormsModule } from '@angular/forms';
 import { SingleSkillComponent } from './skill-header/single-skill/single-skill.component';
+import { LearnMoreButtonsComponent } from './ui-kit/buttons/learn-more-buttons/learn-more-buttons.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { SingleSkillComponent } from './skill-header/single-skill/single-skill.c
     ContactComponent,
     ContactHeaderComponent,
     SingleSkillComponent,
+    LearnMoreButtonsComponent,
   ],
   imports: [
     BrowserModule,
