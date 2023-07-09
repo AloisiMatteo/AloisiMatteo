@@ -289,6 +289,7 @@ ul, li {
   top: 0;
   width: 100%;
   z-index: 998;
+  overflow-y: scroll;
 
   &__content {
     display: flex;
