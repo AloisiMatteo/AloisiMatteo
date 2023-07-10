@@ -41,7 +41,7 @@ button {
     width: 14rem;
     height: auto;
     .circle {
-      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      @include transition(all, 0.5s, cubic-bezier(0.68, -0.55, 0.27, 1.55));
       position: relative;
       display: block;
       margin: 0;
