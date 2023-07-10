@@ -83,20 +83,23 @@
         margin-top: 2rem;
         color: white;
 
+        .item {
+          opacity: 0.7;
+          transform: scale(1);
+          transition: 0.3s ease 0s;
+
+          &:hover {
+            transform: scale(1.2);
+            opacity: 1;
+          }
+        }
         i {
           padding: 1rem 1.2rem;
           transition: 0.3s ease 0s;
           color: white;
-          opacity: 0.5;
           border-radius: 50%;
           background: #232323;
           border: 2px solid white;
-        }
-
-        i:hover {
-          margin: 0 0.5rem;
-          opacity: 1;
-          cursor: pointer;
         }
       }
       &--button {
