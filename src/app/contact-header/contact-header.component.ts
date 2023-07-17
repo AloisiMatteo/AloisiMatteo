@@ -68,6 +68,11 @@ export class ContactHeaderComponent implements OnInit {
     })
   }
 
+  poupopClicked() {
+    // Elimina il poupop dallo schermo
+    this.messageSended = ''
+  }
+
   ngOnInit(): void {
     AOS.init();
     emailjs.init("hyjQk6Wq6kICV5Z7j");

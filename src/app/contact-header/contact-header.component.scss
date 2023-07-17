@@ -298,9 +298,9 @@
   opacity: 0.8;
 }
 .message-sended {
-  animation: scale-in 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: _ngcontent-nex-c7_scale-in 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   font-size: 1.2rem;
-  border-radius: 5px;
+  border-radius: 13px;
   font-weight: 400;
   font-family: Grotesque-regular;
   display: flex;
@@ -309,10 +309,15 @@
   bottom: 1rem;
   right: 1rem;
   color: white;
-  background-color: #222;
+  background-color: #ffffff1c;
   padding: 1rem;
+  transition: 0.3s ease 0s;
 
   i {
-    color: rgb(0, 255, 0);
+    color: #00ceff;
+  }
+  &:hover {
+    background-color: #ffffff2e;
+    cursor: pointer;
   }
 }

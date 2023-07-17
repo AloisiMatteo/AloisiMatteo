@@ -34,7 +34,7 @@
   </div>
 </div>
 
-<div *ngIf="messageSended" class="message-sended">
+<div *ngIf="messageSended" class="message-sended" (click)="poupopClicked()">
   <i class="bi bi-check-circle"></i>
   <p>{{messageSended}}</p>
 </div>
