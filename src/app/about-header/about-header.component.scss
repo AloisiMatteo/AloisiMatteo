@@ -44,9 +44,9 @@
 
       img {
         width: 66%;
-        border-radius: 50%;
-        border: 2px solid #999;
-        box-shadow: 1px 2px 0px 8px black;
+        border-radius: 5px;
+        border: 2px solid #494949;
+        box-shadow: 14px 14px 3px 0px #fffcfc12;
       }
     }
 
@@ -94,12 +94,11 @@
           }
         }
         i {
-          padding: 1rem 1.2rem;
+          padding: 1rem;
           transition: 0.3s ease 0s;
           color: white;
-          border-radius: 50%;
-          background: #232323;
-          border: 2px solid white;
+          background: rgb(255 255 255 / 10%);
+          border-radius: 6px;
         }
       }
       &--button {
