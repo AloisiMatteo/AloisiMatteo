@@ -9,13 +9,13 @@ import { SingleSkillComponent } from './skill-header/single-skill/single-skill.c
 const routes: Routes = [
   { path: '', component: HomepageComponent},
 
-  { path: 'about', component: AboutMeComponent },
+  { path: 'chi sono', component: AboutMeComponent },
 
-  { path: 'skill', component: MySkillComponent, children: [
+  { path: 'competenze', component: MySkillComponent, children: [
     { path: ':id', component: SingleSkillComponent }
   ] },
 
-  { path: 'contact', component: ContactComponent }
+  { path: 'contatti', component: ContactComponent }
 ];
 
 @NgModule({

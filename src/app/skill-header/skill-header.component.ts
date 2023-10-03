@@ -27,7 +27,7 @@ export class SkillHeaderComponent implements OnInit{
 
   ngOnInit(): void {
     if (this.linked) this.URLPrefix = ''
-    else this.URLPrefix = 'skill/'
+    else this.URLPrefix = 'competenze/'
     AOS.init();
   }
 }

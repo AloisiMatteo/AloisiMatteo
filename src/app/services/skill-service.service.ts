@@ -10,43 +10,45 @@ export class SkillServiceService {
     { id: 0,
       immagine: "../../assets/images/angular.svg",
       titolo: "Angular",
-      descrizione: "Framework used to develop websites with high importance, facilitating so the develop and the comprehensibility in team work case.",
+      descrizione: "Framework utilizzato per sviluppare siti web di grande importanza, facilitandone così lo sviluppo e la comprensibilità in caso di lavoro in team.",
       color: "red"
     },
     { id: 1,
       immagine: "../../assets/images/Rx_logo.png",
       titolo: "RxJS",
-      descrizione: "Javascript library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.",
+      descrizione: "Libreria Javascript per la programmazione reattiva utilizzando observables, per facilitare la composizione di codice asincrono o basato su callback.",
       color: "#eb038f"
     },
     { id: 2,
       immagine: "../../assets/images/Typescript_logo.png",
       titolo: "TypeScript",
-      descrizione: "Extension of JavaScript, it also manages logic and events within a web page.",
+      descrizione: "Estensione di JavaScript, anch'essa gestisce logica ed eventi all'interno di una pagina web.",
       color: "#0299e3"
     },
     { id: 3,
       immagine: "../../assets/images/JavaScript_logo.svg.png",
       titolo: "JavaScript",
-      descrizione: "Language used to manage both the logical part and all the events that occur within a web page.",
+      descrizione: "Linguaggio utilizzato per gestire sia la parte logica che tutti gli eventi che accadono all'interno di una pagina web.",
       color: "#f7e018"
     },
     { id: 4,
       immagine: "../../assets/images/HTML_logo.png",
       titolo: "HTML",
-      descrizione: "Language used to set up a structural scheme for the web page.",
+      descrizione: "Linguaggio utilizzato per impostare uno schema strutturale per la pagina web, schema che viene decorato successivamente attraverso il CSS.",
       color: "rgb(255 129 70)"
     },
     { id: 5,
       immagine: "../../assets/images/css3.png",
       titolo: "CSS",
-      descrizione: "Language used to define formatting rules in the various elements of a web page,  giving it so a unique style.",
+      descrizione: "Linguaggio utilizzato per definire le regole di formattazione nei vari elementi di una pagina web, conferendole uno stile unico.",
       color: "#0299e3"
     },
   ]
 
-  private listaFeatures: string[] = ['Great solid experience design', 'Formatting of the graphic, static and dynamic aspects of a web page'
-  , 'Problem Solving']
+  private listaFeatures: string[] = [
+    'Design con esperienza solida',
+    'Formattazione degli aspetti grafici, statici e dinamici di una pagina web',
+    'Problem Solving']
 
   private listaDecorator = [
     {className: 'bi bi-telegram', nome: 'Telegram'},

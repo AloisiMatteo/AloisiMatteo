@@ -30,28 +30,28 @@ export class ContactHeaderComponent implements OnInit {
   //Elenco funzioni per il controllo validazione degli input nel form
   emailCheck(value : any) {
 
-    if (value.email.length > 100) { this.emailTextError = 'Your email can\'t be longer then 100 characters.' }
-    else if (value.email.length == 0) { this.emailTextError = 'You must enter your email.' }
-    else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/gi.test(value.email)) { this.emailTextError = 'That doesn\'t look like a valid email.' }
+    if (value.email.length > 100) { this.emailTextError = 'La tua email non può contenere piu\' di 100 caratteri' }
+    else if (value.email.length == 0) { this.emailTextError = 'L\'email è obbligatoria' }
+    else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/gi.test(value.email)) { this.emailTextError = 'TInserisci un email valida.' }
     else this.emailTextError = null;
   }
   companyCheck(value : any) {
 
-    if (value.company.length == 0) { this.companyTextError = 'You must enter your name.' }
-    else if (value.company.length < 2) { this.companyTextError = 'Your name must be at least 2 characters.' }
-    else if (value.company.length > 50) { this.companyTextError = 'Your name must be at most 50 characters.' }
+    if (value.company.length == 0) { this.companyTextError = 'Il nome è obbligatorio.' }
+    else if (value.company.length < 2) { this.companyTextError = 'Il nome deve contenere almeno 2 caratteri' }
+    else if (value.company.length > 50) { this.companyTextError = 'Il nome deve contenere al massimo 50 caratteri' }
     else this.companyTextError = null;
   }
   subjectCheck(value : any) {
 
-    if (value.subject.length == 0) { this.subjectTextError = 'You must enter your subject.' }
-    else if (value.subject.length < 2) { this.subjectTextError = 'Your subject must be at least 2 characters.' }
-    else if (value.subject.length > 50) { this.subjectTextError = 'Your subject must be at most 50 characters.' }
+    if (value.subject.length == 0) { this.subjectTextError = 'Il soggetto è obbligatorio.' }
+    else if (value.subject.length < 2) { this.subjectTextError = 'Il soggetto deve contenere almeno 2 caratteri.' }
+    else if (value.subject.length > 50) { this.subjectTextError = 'Il soggetto deve contenere al massimo 50 caratteri.' }
     else this.subjectTextError = null;
   }
   textAreaCheck(value : any) {
 
-    if (value.detail.length == 0) { this.textAreaError = 'You must enter a message.' }
+    if (value.detail.length == 0) { this.textAreaError = 'Il messaggio è obbligatorio' }
     else this.textAreaError = null;
   }
 
@@ -60,7 +60,7 @@ export class ContactHeaderComponent implements OnInit {
     this.emailService.sendMessage(formValue, 'service_wd3vu1j', 'template_tkjnj4b')
     .then(()=> {
 
-      this.messageSended = 'Sended!'
+      this.messageSended = 'Messaggio Inviato!'
 
       setTimeout(() => {
         this.messageSended = ''

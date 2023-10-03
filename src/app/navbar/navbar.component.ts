@@ -7,10 +7,10 @@ import { fromEvent, map, Observable, startWith } from 'rxjs';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  navBarItemsLeft : string[] = ['ABOUT', 'SKILL', 'CONTACT'];
+  navBarItemsLeft : string[] = ['Chi sono', 'Competenze', 'Contatti'];
   navBarDownscrollItems : string[] = ['All features', 'For file sharing', 'For collaboration', 'For data security'
   , 'For branding', 'For last feedback'];
-  adaptNavItems : string[] = ['ABOUT', 'SKILL', 'CONTACT'];
+  adaptNavItems : string[] = ['Chi sono', 'Competenze', 'Contatti'];
 
   hamburgerIsActive : boolean = false;
   showFeature : boolean = false;
