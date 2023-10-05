@@ -14,7 +14,7 @@
         <p class="email-input__error" *ngIf="emailTextError">{{emailTextError}}</p>
       </div>
       <div class="contact-form__subject-input">
-        <input type="text" name="subject" placeholder="Inserisci il soggetto" ngModel required pattern="[a-zA-Z0-9]{2,50}" (keyup)="subjectCheck(contact.value)">
+        <input type="text" name="subject" placeholder="Inserisci l'oggetto del messaggio" ngModel required pattern="[a-zA-Z0-9]{2,50}" (keyup)="subjectCheck(contact.value)">
         <p class="contact-form__subject-input--error" *ngIf="subjectTextError">{{subjectTextError}}</p>
       </div>
       <div class="contact-form__textarea-input">
