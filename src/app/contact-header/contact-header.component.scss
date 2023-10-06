@@ -78,15 +78,19 @@
         input:hover, input:focus {
           border-bottom: 1px solid #d6d6d6;
         }
+        input.ng-invalid.ng-touched {
+          border-bottom: 1px solid red;
+        }
         &__email-input, &__company-input {
           padding-bottom: 1rem;
           width: 49%;
 
           p {
-            color: #00ceff;
+            color: red;
             padding-top: 0.7rem;
             padding-left: 0.8rem;
             font-family: Grotesque-regular;
+            font-weight: 600;
             font-size: 0.9rem;
             animation: error-animation 0.3s ease 0s;
             text-align: start;
