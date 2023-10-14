@@ -268,7 +268,20 @@
   }
 
 }
+@media screen and (max-width: 400px) {
+  .contact-header-container {
 
+    &__wrapper {
+
+      &--up {
+        h2.title {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+
+}
 
 
 // Script classes

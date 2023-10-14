@@ -24,7 +24,7 @@
 }
 
 [data-theme = "dark"] {
-  --navbar-background-color: rgb(0 0 0 / 35%);
+  --navbar-background-color: rgb(139 139 139 / 11%);
   --navbar-text-color: #f9f9f9;
   --navbar-svg-fill: #f9f9f9;
   --regular-button-color: white;

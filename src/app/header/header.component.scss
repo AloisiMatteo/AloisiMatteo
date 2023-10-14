@@ -117,10 +117,17 @@
       align-items: center;
       order: 2;
 
-      &__features {
-        text-align: left;
+      &__titolo {
         width: 100%;
-        align-items: center;
+      }
+      &__descrizione {
+        width: 100%;
+        text-align: start;
+      }
+
+      &__features {
+        width: 100%;
+        align-items: start;
 
         .item:hover {
           opacity: 0.6;
