@@ -44,9 +44,14 @@
 
       img {
         width: 66%;
-        border-radius: 5px;
-        border: 2px solid #494949;
-        box-shadow: 14px 14px 3px 0px #fffcfc12;
+        border-radius: 18% 82% 84% 16% / 30% 48% 52% 70%;
+        transition: border-radius .3s ease 0s;
+
+        &:hover {
+          border-radius: 20px;
+          border: none;
+          cursor: pointer;
+        }
       }
     }
 
