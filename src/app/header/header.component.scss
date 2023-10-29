@@ -31,8 +31,9 @@
   to { width: 100% }
 }
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgba(255, 255, 255, 0.415); }
+  0% { border-color: transparent; }
+  50% { border-color: #fff }
+  100% { border-color: transparent; }
 }
 .header-container {
   background: linear-gradient( to right, var(--bg-from-dark) 20%, var(--bg-to-dark) 80% );
